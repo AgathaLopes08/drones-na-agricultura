@@ -180,3 +180,22 @@ form button:hover {
 #beneficios ul li p {
     color: #666;
 }
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #bbbab9;
+    color: #ffffff;
+    border: none;
+    padding: 30px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: none; 
+    font-size: 24px;
+    z-index: 1000; 
+}
+
+#backToTop:hover {
+    background-color: #030303;
+}
